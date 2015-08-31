@@ -1,10 +1,22 @@
 ﻿body {
+    margin: 0;
 }
-#logo{
-    height:200px;
-    width:200px;
-    margin:5px 10px 10px 2px;
+.row{
+    text-align:center;
 }
-.container{
-    margin-top:-100px;
+.row p{
+    margin: 0;
+    padding: 0 0 3px 2px;
+}
+.row img{
+    width:300px;
+    height:300px;
+}
+.pager {
+    position: absolute;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
 }
