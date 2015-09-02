@@ -1,7 +1,18 @@
-﻿/* move special fonts to HTML head for better performance */
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700');
-
-
+﻿/*Yazeed*/
+.logo img{
+    width:70px;
+    height:70px;
+    margin-bottom:30px;    
+    display:block;
+    padding:3px;
+    margin:15px;
+    text-align:center;
+}
+.PageLogo{
+    width:150px;
+    height:150px;
+    margin-left:30px;
+}
 /* custom template */
 html, body {
    height: 100%;
@@ -39,18 +50,6 @@ a {
     padding: 20px;
 }
 
-.box {
-  	bottom: 0; /* increase for footer use */
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color:lightgrey;
-    /*background-image:url('http://lorempixel.com/1024/760/nature/3/');*/
-    background-size:cover;
-    background-attachment:fixed;
-}
-
 .divider {
 	margin-top:32px;
 }
@@ -64,36 +63,9 @@ a {
   width:70px;
 }
 
-#sidebar, #sidebar a {
-    color:#ffffff;
-    background-color:transparent;
-	text-shadow:1px 0 1px #888888;
-}
-
-#sidebar-footer {
-  position:absolute;bottom:5px;
-}
 #footer {
   margin-bottom:20px;
 }
-
-/* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
-  #sidebar,#sidebar a.logo {
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px;
-    font-size:26px;
-  }
-  #sidebar a.logo {
-    font-size:50px;
-    height:75px;
-    width:75px;
-    margin-bottom:30px;
-  }
-}
-
-
 
 
 /* bootstrap overrides */
@@ -121,18 +93,15 @@ h1,h2,h3 {
 .col-sm-9.full {
     width: 100%;
 }
-
 small.text-muted {
   font-family:courier,courier-new,monospace;
 }
-
-/*Yazeed*/
-.logo img{
-    width:75px;
-    height:75px;
-    margin-bottom:30px;
-    display:block;
-    padding:3px;
-    margin:15px;
-    text-align:center;
+#CategoryName{
+  font-family:courier,courier-new,monospace;
+  font-size:22px;
+  font-weight:500;
+  text-align:center;
+}
+.pagination{
+    margin-right:100px;
 }

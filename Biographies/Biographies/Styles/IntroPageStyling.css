@@ -1,0 +1,25 @@
+﻿body{
+    margin:0;
+    padding:0;
+}
+.btn{
+    text-decoration:none;
+    display:inline-block;
+    color:#fff;
+    padding:5px 20px;
+    background-color:#09f;
+    font-family:Courier New, Courier, monospace;
+}
+.slide-page-down{
+    position:absolute;
+    width:100%;
+    box-sizing:content-box;
+    background-color:#666;
+    text-align:right;
+}
+.content{
+    height:1800px;
+    text-align:center;
+    padding-top:200px;
+    background-color:#efefef;
+}
