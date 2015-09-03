@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="../Styles/IntroPageStyling.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Personal Validation</h2>
+
+        <!--NAME-->
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" style="color:white">Name</label>
+                <div class="col-sm-10">
+                    <input class="form-control" id="focusedInput" type="text" placeholder="someone">
+                </div>
+            </div>
+
+            <!--E-mail-->
+            <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 control-label" style="color:white">E-mail</label>
+                <div class="col-sm-10">
+                    <input class="form-control" id="disabledInput" type="email" placeholder="someone_whatever@smth.com">
+                </div>
+            </div>
+
+            <!--account-->
+            <fieldset>
+                <div class="form-group">
+                    <label for="disabledSelect" class="col-sm-2 control-label" style="color:white">Account</label>
+                    <div class="col-sm-10">
+                        <select id="disabledSelect" class="form-control" >
+                            <option hidden></option>
+                            <option style="font-family:cursive,Verdana, 'Courier New'">Facebook</option>
+                            <option>Twitter</option>
+                            <option>Linkedin</option>
+                            <option>Own Website</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group has-success has-feedback">
+                <label class="col-sm-2 control-label">Account URL</label>
+                <div class="col-sm-10">
+                    <input type="url" class="form-control" id="inputSuccess">
+                    
+                </div>
+            </div>
+
+            <!--another account-->
+            <fieldset>
+                <div class="form-group">
+                    <label for="disabledSelect" class="col-sm-2 control-label" style="color:white">Another account (optional)</label>
+                    <div class="col-sm-10">
+                        <select id="disabledSelect" class="form-control">
+                            <option hidden></option>
+                            <option style="font-family:cursive,Verdana, 'Courier New'">Facebook</option>
+                            <option>Twitter</option>
+                            <option>Linkedin</option>
+                            <option>Own Website</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group has-success has-feedback">
+                <label class="col-sm-2 control-label">Account URL</label>
+                <div class="col-sm-10">
+                    <input type="url" class="form-control" id="inputSuccess">
+
+                </div>
+            </div>
+
+            <!--Phone number-->
+            <div class="form-group has-warning has-feedback">
+                <label class="col-sm-2 control-label">Mobile number</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="inputWarning">
+                    
+                </div>
+            </div>
+
+            <!--Photo-->
+            <div class="form-group has-error has-feedback">
+                <label class="col-sm-2 control-label">Upload Photo</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" id="inputError">
+
+                </div>
+            </div>
+
+            <!--C.V-->
+            <div class="form-group has-error has-feedback">
+                <label class="col-sm-2 control-label" >Upload C.V (optional)</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" id="inputError">
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--button-->
+    <div id="button-div">
+        <button class="button" type="submit" onclick="location.href='Categories.html'">Submit</button>
+    </div>
+
+</body>
+</html>
