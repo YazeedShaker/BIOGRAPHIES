@@ -1,0 +1,49 @@
+﻿body {
+    background-image: url(../Images/Intro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+@media only screen and (max-width:767) {
+    body {
+        background-image: url("'../Images/Intro - Mobile.jpg'");
+    }
+}
+
+h2{
+    text-align:center;
+    color:white;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight:100;
+    padding-bottom:25px;
+    font-size:30px;
+}
+
+#button-div {
+    text-align: center;
+}
+
+.button {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: orangered;
+    font-weight: 600;
+    bottom:550px;
+}
+
+.button:hover {
+    background-color: gray;
+    text-decoration: none;
+}
