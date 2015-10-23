@@ -9,6 +9,7 @@
     text-align:center;
 }
 .PageLogo{
+    margin-top:60px;
     width:150px;
     height:150px;
     margin-left:30px;
@@ -22,7 +23,9 @@ html, body {
 a {
   color:#222222;
 }
-
+.wrapper{
+    margin-top:20px;
+}
 .wrapper, .row {
    height: 100%;
    margin-left:0;

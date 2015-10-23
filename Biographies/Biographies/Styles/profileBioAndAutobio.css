@@ -1,0 +1,8 @@
+﻿body {
+}
+#main,#sidebar-wrapper{
+    margin-top:70px;
+}
+#sidebar-wrapper{
+    position:fixed;
+}
