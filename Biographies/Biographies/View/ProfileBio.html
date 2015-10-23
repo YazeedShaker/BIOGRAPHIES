@@ -8,27 +8,50 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Styles/profileBioAndAutobio.css" />
 </head>
 <body>
     <!--This is the header area-->
     <header></header>
     <!--This is the header area (END)-->
 
-    <!--This is the Navigation area-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="IntroPage.html">BIOGRAPHIES</a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="IntroPage.html" id="home">BIOGRAPHIES</a>
             </div>
-            <div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="Categories.html">Categories</a></li>
-                    <li><a href="Autobios.html">Autobios</a></li>
-                    <li><a href="BIOS.html">BIOS</a></li>
-                    <li><a href="About.html">About</a></li>
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="IntroPage.html#homeSection">Biographies</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="IntroPage.html#aboutSection" id="about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="IntroPage.html#categoriesSection" id="categories">Categories</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="IntroPage.html#contactSection" id="contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="FormValidation.html">BE-KNOWN</a>
+                    </li>
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
     </nav>
     <!--This is the Navigation area (END)-->
 
@@ -47,7 +70,7 @@
                         <a class="list-group-item" href="#"><i class="icon-home icon-1x"></i>Like</a>
                     </li>
                     <li>
-                        <a class="list-group-item" href="Categories.html"><i class="icon-home icon-1x"></i>Others</a>
+                        <a class="list-group-item" href="Categories.html"><i class="icon-home icon-1x" id="OthersReturnPage"></i>Others</a>
                     </li>
                 </ul>
             </div>
